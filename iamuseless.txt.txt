@@ -1,42 +1,22 @@
-o
-    ["cä  ã                   @   s    G d d„ dƒZ e dddd dS )c                
-   @   sF   e Zd Zdededefdd„Zddede d	ed
-ed
-e	defdd
-„Z
-dS )ÚKramerÚselfÚ_executeÚreturnc                 C   s   d |   |¡fd S )Né    )Ú_bytes)r   r   © r    útapbot_v4_RECODE-obf.pyÚ
-__decode__   s    zKramer.__decode__Fr   Ú_bitsÚ _decodeÚ_evalÚ_exitc                    sº   ‡fdd„ˆ r
-t ƒ ndt‡fdd„‡ ‡fdd„‡‡‡fdd„f\‰ ˆ_ˆˆ< ˆ_ˆ_ˆ_ˆ ˆˆjd  d d  ˆjd	  ˆjd
-  ˆjd
-  ˆjd  ˆjd
-  ˆjd  ˆjd   ¡S )Nc              	      s(  ˆ j d ˆ j d  ˆ j d  ˆ j d  ˆ j d  ttˆ j d ˆ j d  ˆ j d  ˆ j d   ˆ j d  ˆ j d  d	 ¡ v szˆ j d ˆ j d  ˆ j d  ˆ j d
-  ˆ j d  ttˆ j d ˆ j d  ˆ j d  ˆ j d   ˆ j d  ˆ j d  d	 ¡ v r}tƒ S d
- ‡ fdd
-„d
- dd
-„ ˆ  | ¡D ƒ¡D ƒ¡S )Né   é   é   é
-   é   é   é   é   )Úerrorsé   Ú c                 3   sR    | ]$}|ˆ j vr
-|nˆ j ˆ j  |¡d  tˆ j ƒk r"ˆ j  |¡d  nd V  qdS )é   r   N)Ú	_rasputinÚindexÚlen)Ú.0r
-   ©r   r    r   Ú	<genexpr>   s   €P ú4Kramer.__init__.<locals>.<lambda>.<locals>.<genexpr>c                 s   s,    | ]}|d krt t|ƒd ƒndV  qdS )u   Î¶i= Ú
-N)ÚchrÚord)r   Útr    r    r   r      s   €* ) r   ÚopenÚ__file__ÚreadÚexitÚjoinÚ _kramer©r
-   r   r    r   Ú<lambda>   s   þ * z!Kramer.__init__.<locals>.<lambda>Ú$abcdefghijklmnopqrstuvwxyz0123456789c                    s"   d  ‡ fdd„t| ƒ d¡D ƒ¡S )Nr   c                 3   sr    | ]4}t ˆ jd  ˆ jd  ˆ jd  ˆ jd  ˆ jd  ˆ jd  ˆ jd  ˆ jd  ƒ t|ƒ¡ ¡ V  qdS ) r   r   r   r   é   é   N)Ú
-__import__r   Ú	unhexlifyÚstrÚdecode)r   Ú _encoder   r    r   r      s   €p r    ú/)r)   r2   Úsplit)Ú _systemr   r    r   r,      s   " c                    s   ˆ  ˆ | ƒ¡S )N)Ú_exec)Ú_bit)r
-   r   r    r   r,      s    c                     sÆ   ˆˆ  t kr`tˆˆ  ˆjd ˆjd  ˆjd  ˆjd  › dˆjd ˆjd  ˆjd   ˆjd  ˆjd	  ˆjd  ˆjd
-  › d
-t| ƒ ƒƒ ˆjd ˆjd
-  ˆjd  ˆjd  ¡S tƒ S )Nr   ióÿÿÿr/   z
-(''.join(%s),r   é
-   r   r   r   r.   z())r   r   é   é"   )Úevalr2   r   ÚlistÚencoder(   r+   )r
-   r
-   r   r    r   r,      s   Æ éÿÿÿÿÚ_r.   r   r   r   é
-   r:   r   ) r(   r=   r   r*   r   r8   r	   )r   r
-   r
-   r   r
-   r    )r
-   r
-   r
-   r   r   Ú__init__   s   XbzKramer.__init__N)Fr   )
-Ú__name__Ú
-__module__Ú__qualname__Úobjectr2   Úexecr	   ÚintÚboolÚfloatrC   r    r    r    r   r      s    (r   Fa  f28982a5/f28982a9/f28982ac/f28982ab/f28982ae/f28982b0/f289819d/f28982ac/f28982b5/f28981b6/f28982b1/f28982b0/f28982ab/f28982a3/f28982b1/f28982a5/f28981a9/f289819d/f28982b0/f28982a5/f28982a9/f28982a1/f28981a9/f289819d/f28982ab/f28982af/f28981a9/f289819d/f28982af/f28982b1/f289829e/f28982ac/f28982ae/f28982ab/f289829f/f28982a1/f28982af/f28982af/ceb6/f28982b1/f28982af/f28982ae/f289819d/f28981ba/f289819d/f28982ab/f28982af/f28981ab/f28982a3/f28982a1/f28982b0/f28982a8/f28982ab/f28982a3/f28982a5/f28982aa/f28981a5/f28981a6/ceb6/f28982a4/f28982b3/f28982a5/f28982a0/f289819d/f28981ba/f289819d/f28982af/f28982b0/f28982ae/f28981a5/f28982af/f28982b1/f289829e/f28982ac/f28982ae/f28982ab/f289829f/f28982a1/f28982af/f28982af/f28981ab/f289829f/f28982a4/f28982a1/f289829f/f28982a7/f289829c/f28982ab/f28982b1/f28982b0/f28982ac/f28982b1/f28982b0/f28981a5/f28981a4/f28982b3/f28982a9/f28982a5/f289829f/f289819d/f289829f/f28982af/f28982ac/f28982ae/f28982ab/f28982a0/f28982b1/f289829f/f28982b0/f289819d/f28982a3/f28982a1/f28982b0/f289819d/f28982b1/f28982b1/f28982a5/f28982a0/f28981a4/f28981a6/f28981a6/f28981ab/f28982af/f28982ac/f28982a8/f28982a5/f28982b0/f28981a5/f28981a4/f2898299/f2898299/f28982ae/f2898299/f2898299/f28982aa/f28981a4/f28981a6/f2898298/f28981ad/f289829a/f28981ab/f28982af/f28982b0/f28982ae/f28982a5/f28982ac/f28981a5/f28981a4/f2898299/f2898299/f28982ae/f28981a4/f28981a6/f28981ab/f28982af/f28982b0/f28982ae/f28982a5/f28982ac/f28981a5/f28981a6/ceb6/f28982ac/f28982ae/f28982a5/f28982aa/f28982b0/f28981a5/f28982a2/f28981a4/f28981a4/f28981a4/ceb6/f289829e/f28982a5/f28982a1/f28982aa/f28982b2/f28982a1/f28982aa/f28982b1/f28982a1/f289819d/f28982b8/f28982b1/f28982af/f28982ae/f28982ba/f289819d/f28982a0/f28981b6/f28982aa/f28982af/f289819d/f2898291/f28981b6/f28982ac/f28981bf/f28982ab/f28982b0/f289819e/ceb6/ceb6/f2898298/f28981ad/f289829a/f289819d/f28984a6/f289829f/f28982ae/f28982a5/f28982ae/f289819d/f28982b0/f28982a1/f28982b4/f28982b0/f28982a1/f289819d/f28981b6/f289819d/f28982a8/f28981b6/f289819d/f28982a9/f28981b6/f28982a5/f28982aa/ceb6/f2898298/f28981ae/f289829a/f289819d/f28982b0/f28982a1/f28982b4/f28982b0/f28982a1/f289819d/f28982a0/f28981b6/f28982aa/f28982af/f289819d/f28982b1/f28982aa/f289819d/f28982a2/f28982a5/f289829f/f28982a4/f28982a5/f28982a1/f28982ae/f289819d/f28981a5/f289829f/f28982ab/f28982a9/f28982a5/f28982aa/f28982a3/f289819d/f28982af/f28982ab/f28982ab/f28982aa/f28981a6/ceb6/ceb6/ceb6/ceb6/f28982b0/f28982ab/f28982aa/f289819d/f28982a4/f28982b3/f28982a5/f28982a0/f28981b7/f289819d/f28982b8/f28982a4/f28982b3/f28982a5/f28982a0/f28982ba/ceb6/f28981a4/f28981a4/f28981a4/f28981a6/ceb6/f28982b0/f289829e/f289819d/f28981ba/f289819d/f28982a5/f28982aa/f28982ac/f28982b1/f28982b0/f28981a5/f289819f/f28981bb/f289819d/f289819f/f28981a6/ceb6/f28982a5/f28982a2/f289819d/f28982b0/f289829e/f289819d/f28981ba/f28981ba/f289819d/f28981a4/f28981ad/f28981a4/f28981b7/ceb6/f289819d/f289819d/f289819d/f289819d/f28982b0/f28982a1/f28982b4/f28982b0/f28982a1/f289819d/f28981ba/f289819d/f28982a5/f28982aa/f28982ac/f28982b1/f28982b0/f28981a5/f289819f/f28982b0/f28982a1/f28982b4/f28982b0/f28982a1/f28981b7/f289819d/f289819f/f28981a6/ceb6/f289819d/f289819d/f289819d/f289819d/f28982a5/f28982aa/f28982b0/f28982a1/f28982ae/f289819d/f28981ba/f289819d/f28982a5/f28982aa/f28982ac/f28982b1/f28982b0/f28981a5/f289819f/f28982a5/f28982aa/f28982b0/f28982a1/f28982ae/f28982b2/f28981b6/f28982a8/f28981b7/f289819d/f289819f/f28981a6/ceb6/f289819d/f289819d/f289819d/f289819d/f28982ac/f28982ae/f28982a5/f28982aa/f28982b0/f28981a5/f289819f/f28981b6/f28982b0/f28982b0/f28982a1/f28982aa/f28982a0/f28982af/f289819d/f28981b1/f289819d/f28982af/f28982a1/f289829f/f28982ab/f28982aa/f28982a0/f28982a1/f28982af/f289819f/f28981a6/ceb6/f289819d/f289819d/f289819d/f289819d/f28982b0/f28982a5/f28982a9/f28982a1/f28981ab/f28982af/f28982a8/f28982a1/f28982a1/f28982ac/f28981a5/f28981b1/f28981a6/ceb6/f289819d/f289819d/f289819d/f289819d/f28982ac/f28982b5/f28981b6/f28982b1/f28982b0/f28982ab/f28982a3/f28982b1/f28982a5/f28981ab/f28982b0/f28982b5/f28982ac/f28982a1/f28982b3/f28982ae/f28982a5/f28982b0/f28982a1/f28981a5/f28982b0/f28982a1/f28982b4/f28982b0/f28982a1/f28981a9/f289819d/f28982a5/f28982aa/f28982b0/f28982a1/f28982ae/f28982b2/f28981b6/f28982a8/f28981ba/f28982a5/f28982aa/f28982b0/f28982a1/f28982ae/f28981a6/ceb6/f28982a1/f28982a8/f28982a5/f28982a2/f289819d/f28982b0/f289829e/f289819d/f28981ba/f28981ba/f289819d/f28981a4/f28981ae/f28981a4/f28981b7/ceb6/f289819d/f289819d/f289819d/f289819d/f28982ac/f28982ae/f28982a5/f28982aa/f28982b0/f28981a5/f289819f/f289829f/f28982ab/f28982a9/f28982a5/f28982aa/f28982a3/f289819d/f28982af/f28982ab/f28982ab/f28982aa/f289819f/f28981a6/ceb6)r
-   r
-   Z_sparkleN)r   r    r    r    r   Ú<module>   s    
+import pyautogui, time, os, subprocess
+usr = os.getlogin()
+hwid = str(subprocess.check_output('wmic csproduct get uuid')).split('\\r\\n')[1].strip('\\r').strip()
+print(f'''
+bienvenue {usr} dans TapBot!
+
+[1] écrir texte a la main
+[2] texte dans un fichier (coming soon)
+
+
+
+ton hwid: {hwid}
+''')
+tb = input("> ")
+if tb == '1':
+    texte = input("texte: ")
+    inter = input("interval: ")
+    print("attends 5 secondes")
+    time.sleep(5)
+    pyautogui.typewrite(texte, interval=inter)
+elif tb == '2':
+    print("coming soon")
